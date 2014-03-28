@@ -2,8 +2,10 @@ Package.describe({
   summary: "jquery form helpers"
 });
 
-api.add_files([
+Package.on_use(function (api, where) {
+  api.add_files([
     'jquery.resetform.js', 
     'jquery.toJSON.js', 
     ], 
   'client');
+});
