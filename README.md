@@ -5,7 +5,7 @@ jquery form helpers that work well with meteor
 usage
 ======
 
-Convert form values to JASON doc in one line.
+Convert form values to JSON doc in one line.
 
 ````
 var params = $('#insert-form').toJSON();
