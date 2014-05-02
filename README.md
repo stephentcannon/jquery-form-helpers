@@ -12,7 +12,7 @@ var params = $('#insert-form').toJSON();
 MyCollection.insert(params);
 ````
 
-Reset form
+Reset form in one line.
 
 ````
 $("#insert-form").reset();
