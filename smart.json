@@ -1,9 +1,9 @@
 {
   "name": "jquery-form-helpers",
-  "description": "jquery form helpers",
+  "description": "jquery form helpers from easy form to doc to reset",
   "homepage": "https://github.com/stephentcannon/jquery-form-helpers",
   "author": "EtherPOS (http://www.etherpos.com)",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "git": "https://github.com/stephentcannon/jquery-form-helpers",
   "packages": {}
 }
