@@ -1,11 +1,17 @@
 Package.describe({
-  summary: "jquery form helpers"
+  summary: "jquery form helpers",
+  // Version number.
+  version: "0.0.4",
+  // Optional.  Default is package directory name.
+  name: "steeve:jquery-form-helpers",
+  // Optional github URL to your source repository.
+  git: "https://github.com/stephentcannon/jquery-form-helpers.git",
 });
 
-Package.on_use(function (api, where) {
-  api.add_files([
-    'jquery.resetform.js', 
-    'jquery.toJSON.js', 
-    ], 
+Package.onUse(function (api, where) {
+  api.addFiles([
+    'jquery.resetform.js',
+    'jquery.toJSON.js',
+    ],
   'client');
 });
